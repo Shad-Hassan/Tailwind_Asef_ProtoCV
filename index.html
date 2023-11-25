@@ -29,13 +29,13 @@
         justify-content: center;
     }
 
-    .side {
-        width: 100%;
-        padding: 0.625rem;
+
+    .font-lato {
+        font-family: 'Lato', sans-serif;
     }
 </style>
 
-<body>
+<body class="bg-[#060607] min-h-[100vh]">
     <nav class="bg-[#005B41] rounded-xl">
         <ul class="w-full central h-[7.5vh] text-[#f6f6f3] rounded-full p-[0.625rem]">
             <li
@@ -55,38 +55,116 @@
 
 
         <!-- Left Side -->
-        <section class="side">
+        <section class="p-[0.625rem] flex-col gap-[2rem] w-[50%]">
             <!-- Header -->
-            <div class="text-[#f6f6f3] text-6xl uppercase flex flex-col gap-[2rem]">
-                <h1>Hey!</h1>
-                <h1>Hey!</h1>
-                <h1>Hey!</h1>
+            <div class="flex flex-col items-end gap-[2rem]
+            text-[#f6f6f3] text-3xl md:text-5xl lg:text-6xl uppercase text-left
+            my-[2rem] font-lato">
+                <h1 class="text-[#00cc99]">Hey!</h1>
+                <h1>Let's build</h1>
+                <h1>Together</h1>
             </div>
-            <h1 class="">
-              Hey!            
 
-            </h1>
+            <div class="flex justify-center my-[4rem]">
+                <button
+                    class="relative inline-flex flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
 
-            <button
-                class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                                
-                <span
-                    class="flex relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                    <span class="mr-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-                          </svg>
-                          
+                    <span
+                        class="flex relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        <span class="mr-3 font-lato">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                            </svg>
+
+                        </span>
+                        Hire Me
                     </span>
-                    Hire Me
-                </span>
-            </button>
+                </button>
+            </div>
+
+
+            <div class="ml-3 text-[#f6f6f3] text-left uppercase  font-lato">
+                <div class="flex justify-start">
+                    <h3 class="text-lg md:text-2xl lg:text-4xl font-extrabold">
+                        Education
+                    </h3>
+
+                </div>
+
+                <div class="text-md md:text-lg lg:text-xl ml-6 mt-[2rem]">
+                    <ul class="list-disc">
+                        <li class="mb-2">Scholastica</li>
+                        <li class="mb-2">British Council</li>
+                        <li class="mb-2">Independent University, Bangladesh</li>
+                    </ul>
+                </div>
+
+            </div>
 
         </section>
 
 
         <!-- Right Side -->
-        <section class="side">
+        <section class="p-[0.625rem] w-[50%]">
+            <div class="w-full flex justify-center items-center">
+
+                <div class="p-[0.625rem] w-full md:w-[80%] lg:w-[60%] rounded-full my-5
+            central">
+                    <img src="/Assets/Untitled-1.png" class="w-full h-full rounded-full border border-[#00cc99]">
+                </div>
+
+
+            </div>
+
+
+            <div class="ml-6 text-[#f6f6f3] text-left uppercase  font-lato">
+                <div class="flex justify-start">
+                    <h3 class="text-lg md:text-2xl lg:text-4xl font-extrabold mb-[0.75rem]">
+                        Skills
+                    </h3>
+
+                </div>
+
+                <div class="flex flex-col gap-[0.5 rem]
+                text-md md:text-lg lg:text-xl">
+                <div>
+                    <h3>SEO</h3>
+                </div>
+                <div class="w-full">
+                    <progress class="progress progress-accent w-56" value="90" max="100"></progress>                                        
+                </div>                    
+                
+                
+                <div>
+                    <h3>FULL STACK Developer</h3>
+                </div>
+                <div class="w-full">
+                    <progress class="progress progress-error w-56" value="10" max="100"></progress>                                        
+                </div>                    
+                
+
+                <div>
+                    <h3>Social Media Marketing</h3>
+                </div>
+                <div class="w-full">
+                    <progress class="progress progress-error w-56" value="5" max="100"></progress>                                        
+                </div>                    
+                
+
+                <div>
+                    <h3>CCNA</h3>
+                </div>
+                <div class="w-full">
+                    <progress class="progress progress-warning w-56" value="25" max="100"></progress>                                        
+                </div>                    
+                </div>
+
+                
+
+            </div>
+
 
         </section>
 
